@@ -58,9 +58,9 @@ def download(download_path,ip,port,host,psw,year):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ip-address',type=str, default='193.205.129.120', help='Indirizzo IP dove scaricare i file GAR')
-    parser.add_argument('--port', type=str, default='63406', help='Porta indirizzo IP')
-    parser.add_argument('--host',type=str, default='studenti', help='Host')
+    parser.add_argument('--ip-address',type=str, default='', help='Indirizzo IP dove scaricare i file GAR')
+    parser.add_argument('--port', type=str, default='', help='Porta indirizzo IP')
+    parser.add_argument('--host',type=str, default='', help='Host')
     parser.add_argument('--year', type=str, default='2021', help='Anno file Log')
     parser.add_argument('--psw', type=str, default='', help='Password del server')
     parser.add_argument('--out-dir', type=str, default='D:/Universita/Laurea Magistrale/Advanced Cybersecurity/Progetto/log_files', help='Directory di output')
