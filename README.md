@@ -23,7 +23,7 @@ Per installarli basta eseguire il comando:
 ```
 
 ## 👩‍💻 Getting Started
-######1. Nella prima fase del progetto vengono scaricati i log dalla rete GARR secondo le specifiche di progetto:
+**1.** Nella prima fase del progetto vengono scaricati i log dalla rete GARR secondo le specifiche di progetto:
     - 10 giorni al mese per 12 mesi;
     - 20% di ciscun log. (Tale specifica sarà soddisfatta nella fase successiva durante l'estrazione dei DNS) 
     - Ogni fascia oraria è rappresentata dai vari log.
@@ -36,9 +36,9 @@ Per eseguire lo script è necessario lanciare il seguente comando da terminale s
 ```
 I vari indirizzi IP, porta e password del server da cui sono stati scaricati i dati GARR sono stati volutamente omessi per questione di sicurezza e confidenzialità di tali informazioni. 
 
-2. Una volta estratti i file GARR è necessario estrarre i log e successivamente inserirli in un archivio .zip in modo tale da poterli facilmente elaborare nel [notebook](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/Progetto_ADC.ipynb) messo a disposizione nella repository.
+**2.** Una volta estratti i file GARR è necessario estrarre i log e successivamente inserirli in un archivio .zip in modo tale da poterli facilmente elaborare nel [notebook](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/Progetto_ADC.ipynb) messo a disposizione nella repository.
 
-3. Una volta inserito il file .zip dei log è sufficente eseguire le sezioni del notebook messo a disposizione:
+**3.** Una volta inserito il file .zip dei log è sufficente eseguire le sezioni del notebook messo a disposizione:
     - Estrazione DNS dai file di log: In questa sezione una volta ottenuti i log si vanno ad estrarre per ogni file di log il 20% dei record di DNS filtrando prima quelli con lunghezza superiore ai 100 caratteri e quelli espressi tramite indirizzi IP. 
     - Suddivisione in n-grams: Una volta estratti i DNS, essi sono stati divisi rispettivamenti in 1-grams, 2-grams e 3-grams
     - Implementazione ed allenamento di FastText: le varie divisioni sono state utilizzate per addestrarre tre modelli unsupervised tramite Fasttext (per maggiori informazioni sul suo utilizzo vedere la relazione). I tre modelli ottenuti poi sono stati trasformati in formato .vec per il successivo utilizzo della fase di addestramento generale.
