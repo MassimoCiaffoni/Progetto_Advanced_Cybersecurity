@@ -31,7 +31,8 @@ L’estrazione dei vari log è stata effettuata tramite
 il seguente [script](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/download_log.py) python. 
 Per eseguire lo script è necessario lanciare il seguente comando da terminale specificando le varie opzioni:
 ```sh
-    python3 ../download_log.py --ip-address <ip_del_server> --host <host @studenti> --psw <password> --year <anno> --out-dir <output_directory>
+    python3 ../download_log.py --ip-address <ip_del_server> --host <host @studenti>
+    --psw <password> --year <anno> --out-dir <output_directory>
 ```
 I vari indirizzi IP, porta e password del server da cui sono stati scaricati i dati GARR sono stati volutamente omessi per questione di sicurezza e confidenzialità di tali informazioni. 
 
