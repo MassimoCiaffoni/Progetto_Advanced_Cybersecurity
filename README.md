@@ -4,14 +4,10 @@ Progetto realizzato per il corso di "Advanced Cybersecurity" presso l'Universit�
 
 
 ## About The Project
-In questo progetto viene posta l’attenzione sui malware che permettono di creare
-le "Botnet", ovvero reti di macchine infette il quale vengono coordinate da un hac-
-ker attraverso un server di comando e controllo. Solitamente, per arginare questo
-tipo di infezione, si cerca di individuare e offuscare il server di comando e con-
-trollo. Questa operazione, però, non è molto semplice, perchè come contromisura
-vengono adottate delle strategie che ne rendono difficile l’individuazione. Una di
-queste tecniche consiste nel modificare il nome di dominio dopo un certo intervallo
-di tempo, attraverso un DGA (Domain name Generation Algorithm).
+In questo progetto viene posta l’attenzione sui malware che permettono di creare le "Botnet", ovvero reti di macchine infette il quale vengono coordinate da un hac
+ker attraverso un server di comando e controllo. Solitamente, per arginare questo tipo di infezione, si cerca di individuare e offuscare il server di comando e con
+trollo. Questa operazione, però, non è molto semplice, perchè come contromisura vengono adottate delle strategie che ne rendono difficile l’individuazione. Una di
+queste tecniche consiste nel modificare il nome di dominio dopo un certo intervallo di tempo, attraverso un DGA (Domain name Generation Algorithm).
 
 ## 📦 Built With
 
