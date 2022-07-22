@@ -23,7 +23,7 @@ Per installarli basta eseguire il comando:
 ```
 
 ## 👩‍💻 Getting Started
-1. Nella prima fase del progetto vengono scaricati i log dalla rete GARR secondo le specifiche di progetto:
+######1. Nella prima fase del progetto vengono scaricati i log dalla rete GARR secondo le specifiche di progetto:
     - 10 giorni al mese per 12 mesi;
     - 20% di ciscun log. (Tale specifica sarà soddisfatta nella fase successiva durante l'estrazione dei DNS) 
     - Ogni fascia oraria è rappresentata dai vari log.
