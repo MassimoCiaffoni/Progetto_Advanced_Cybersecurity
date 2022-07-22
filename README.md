@@ -1,6 +1,6 @@
 # Progetto Advanced Cybersecurity
 <a><img src="images/logo-univpm.png" height='60' align="right"/></a>
-Progetto realizzato per il corso di "Advanced Cybersecurity" presso l'Università politecnica delle Marche nel anno accademico 2021/2022.
+Progetto realizzato per il corso di "Advanced Cybersecurity" presso l'Università politecnica delle Marche nell'anno accademico 2021/2022.
 
 
 ## About The Project
