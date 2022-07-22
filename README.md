@@ -27,8 +27,8 @@ Per installarli basta eseguire il comando:
     - 10 giorni al mese per 12 mesi;
     - 20% di ciscun log. (Tale specifica sarà soddisfatta nella fase successiva durante l'estrazione dei DNS) 
     - Ogni fascia oraria è rappresentata dai vari log.
-L’estrazione dei vari log è stata effettuata tramite
-il seguente [script](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/download_log.py) python. 
+
+L’estrazione dei vari log è stata effettuata tramite il seguente [script](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/download_log.py) python. 
 Per eseguire lo script è necessario lanciare il seguente comando da terminale specificando le varie opzioni:
 ```sh
     python3 ../download_log.py --ip-address <ip_del_server> --host <host @studenti>
