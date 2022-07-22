@@ -34,7 +34,7 @@ Per eseguire lo script è necessario lanciare il seguente comando da terminale s
     python3 ../download_log.py --ip-address <ip_del_server> --host <host @studenti> --psw <password> --year <anno> --out-dir <output_directory>
 ```
 I vari indirizzi IP, porta e password del server da cui sono stati scaricati i dati GARR sono stati volutamente omessi per questione di sicurezza e confidenzialità di tali informazioni. 
-2. Una volta estratti i file GARR è necessario estrarre i log e successivamente inserirli in un archivio .zip in modo tale da poterli facilmente elaborare nel [notebook] (https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/Progetto_ADC.ipynb) messo a disposizione nella repository.
+2. Una volta estratti i file GARR è necessario estrarre i log e successivamente inserirli in un archivio .zip in modo tale da poterli facilmente elaborare nel [notebook](https://github.com/MassimoCiaffoni/Progetto_Advanced_Cybersecurity/blob/main/Progetto_ADC.ipynb) messo a disposizione nella repository.
 
 3. Una volta inserito il file .zip dei log è sufficente eseguire le sezioni del notebook messo a disposizione:
     - Estrazione DNS dai file di log: In questa sezione una volta ottenuti i log si vanno ad estrarre per ogni file di log il 20% dei record di DNS filtrando prima quelli con lunghezza superiore ai 100 caratteri e quelli espressi tramite indirizzi IP. 
